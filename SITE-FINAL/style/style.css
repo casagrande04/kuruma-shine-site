@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;800&family=Roboto:wght@300;400;500&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+    background-color: rgb(209, 209, 209);
+    background-image: url(/img/ferrari.png);
+}
+
+#titulo{
+    padding-top: 80px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+#subtexto{
+    box-shadow: 0px 0px 9px black;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.2em;
+    font-weight:400;
+}
+
+.largura-carousel {
+    width: 500px;
+}
