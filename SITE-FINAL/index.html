@@ -1,108 +1,170 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>CarSão</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>CarSão</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-  
-  <div class="container-fluid bg-light" id="navbar">
-    <div class="media justify-content-between">
-      <img class="mr-3 bg-light" src="img/logo.png" alt="Estética Automotiva">
-      <ul class="nav justify-content-end pt-3 pb-3">
-        <li class="nav-item">
-          <a class="nav-link active text-dark" href="#">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
-            aria-haspopup="true" aria-expanded="false">Serviços</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item text-dark" href="#">Polimento</a>
-            <a class="dropdown-item text-dark" href="#">Limpeza interna</a>
-            <a class="dropdown-item text-dark" href="#">Revitalizar pintura</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Produtos</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
-            aria-haspopup="true" aria-expanded="false">Contato</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item text-dark" href="#">(11) 91234-1234</a>
-            <a class="dropdown-item text-dark" href="#">@EstéticaAutomotiva</a>
-          </div>
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #fff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Sobre</a>
+            <a class="nav-link active " aria-current="page" href="#">Inicio</a>
           </li>
-        </li>
-      </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Polimento Técnico</a></li>
+              <li><a class="dropdown-item" href="#">Limpeza Interna</a></li>
+              <li><a class="dropdown-item" href="#">Revitaliazação de Pintura</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Produtos</a>
+          </li>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Polimento Técnico</a></li>
+            <li><a class="dropdown-item" href="#">Limpeza Interna</a></li>
+            <li><a class="dropdown-item" href="#">Revitaliazação de Pintura</a></li>
+          </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contatos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">(11) 91726-1726</a></li>
+              <li><a class="dropdown-item" href="#">@EsteticaAutomotiva</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Sobre</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
+
+  <div class="container-fluid"> <!-- Inicio do container principal -->
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <h1 class="titulo">Estética Automotiva</h1> <br>
+          <p class="subtexto">Você ama o seu carro, e nós também! Na nossa estética automotiva, não apenas cuidamos da
+            parte externa do seu veículo, mas revelamos a sua verdadeira beleza interior. Imagine o seu carro brilhando,
+            impecável e pronto para impressionar por onde passar. <br> <br> Seja uma limpeza profunda, polimento
+            especializado, proteção de pintura ou detalhamento interior, cuidamos de cada detalhe para que o seu carro
+            saia daqui com um aspecto completamente renovado e radiante. Afinal, a primeira impressão é sempre
+            importante, e queremos que a sua seja deslumbrante. <br> <br> Venha nos visitar e descubra como podemos
+            elevar a estética do seu carro a um novo patamar. Afinal, não é apenas um veículo, é o seu estilo, sua
+            personalidade e nossa paixão em cada detalhe. <br></p>
 
 
-    <div class="container text-light text-center">
-      <strong>
-        <h1 class="display-2" id="titulo">Estética Automotiva</h1>
-      </strong>
-    </div>
-
-    <div class="container-fluid" id="subtexto">
-      <p>Você ama o seu carro, e nós também! Na nossa estética automotiva, não apenas cuidamos da parte externa do seu veículo, mas revelamos a sua verdadeira beleza interior. Imagine o seu carro brilhando, impecável e pronto para impressionar por onde passar. <br> <br> Seja uma limpeza profunda, polimento especializado, proteção de pintura ou detalhamento interior, cuidamos de cada detalhe para que o seu carro saia daqui com um aspecto completamente renovado e radiante. Afinal, a primeira impressão é sempre importante, e queremos que a sua seja deslumbrante. <br> <br> Venha nos visitar e descubra como podemos elevar a estética do seu carro a um novo patamar. Afinal, não é apenas um veículo, é o seu estilo, sua personalidade e nossa paixão em cada detalhe. <br> <br></p>
-      <a href="#sobre"><button type="button" class="btn btn-secondary">Saiba mais</button></a>
-    </div>
-    
-    <div class="largura-carousel">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/carrossel1.jpg" alt="Primeiro Slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Polimento Técnico</h5>
-              <p>Polimento técnico usando tais produtos com a melhor qualidade blablabla</p>
+          <!-- CARROSSEL -->
+          <div class="largura-carousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/carrossel1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Polimento Técnico</h5>
+                    <p>Polimento técnico usando tais produtos com a melhor qualidade blablabla.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/carrossel2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/carrossel3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carrossel2.jpg" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carrossel3.jpg" alt="Terceiro Slide">
-          </div>
+          <!-- FINAL COLUNA  -->
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-    </div>
 
-      <script>
-      $('.carousel').carousel('cycle')({
-        interval: 500
-      })</script>
-    </div>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <h1 class="titulo">Serviços</h1>
+              </a>
+            </li>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <img src="img/servico.png" alt="">
+                </div>
+                <div class="col">
+                  <img src="img/servico.png" alt="">
+                </div>
+                <div class="col">
+                  <img src="img/servico.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <p class="subtexto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facilis illum, vero, nisi eaque ducimus odio assumenda quisquam tenetur iste veniam aspernatur ipsa cum ad molestias dolores saepe autem officia.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae incidunt, veritatis libero voluptatem doloremque dolores eius iure, quibusdam facilis suscipit repudiandae expedita nobis odit quia aut hic ratione omnis provident?</p>
+                </div>
+      
+      
+      
+      
+      
+          </div> <!-- fim do container principal -->
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

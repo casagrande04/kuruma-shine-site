@@ -4,23 +4,60 @@
 
 body{
     background-color: rgb(209, 209, 209);
-    background-image: url(/img/ferrari.png);
+    background-image: url(/img/fundobody.png);
+    background-repeat: no-repeat;
 }
 
-#titulo{
-    padding-top: 80px;
+.titulo{
+    color: #fff;
+    font-size: 50pt;
     font-family: 'Gabarito', sans-serif;
+    text-shadow: 6px 2px 12px rgb(0, 0, 0);
 }
 
-#subtexto{
+.subtexto{
     box-shadow: 0px 0px 9px black;
     background-color: rgba(0, 0, 0, 0.452);
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size:1.2em;
     font-weight:400;
+    padding-bottom: 15px;
 }
 
 .largura-carousel {
     width: 500px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+
+#saiba{
+    background-color: rgb(143, 0, 0);
+    border: none;
+    height: 40px;
+}
+
+#saiba:hover{
+    background-color: rgb(182, 45, 45);
+}
+
+.servicos{
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 12px;
+}
+
+.tipos{
+    width: 100px;
+    height: 100px;
+}
+
+.fundoimg{
+    background-color: aqua;
+    width: 100% !important;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 12px;
 }
