@@ -23,7 +23,6 @@ body{
 }
 
 .titulo{
-<<<<<<< HEAD
    color: #fff;
    font-size: 50pt;
    font-family: 'Gabarito', sans-serif;
@@ -37,21 +36,6 @@ body{
    font-size:1.2em;
    font-weight:400;
    padding-bottom: 15px;
-=======
-    color: #fff;
-    font-size: 50pt;
-    font-family: 'Gabarito', sans-serif;
-    text-shadow: 6px 2px 12px rgb(0, 0, 0);
-    text-align: center;
-}
-
-.subtexto{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size:1.2em;
-    font-weight:400;
-    padding-bottom: 15px;
->>>>>>> f438cac21010b96297eff6df1a5b95ba87e74d9f
 }
 
 .largura-carousel {
@@ -92,7 +76,6 @@ body{
 }
 
 .card{
-<<<<<<< HEAD
    border: 4px solid red;
    margin: 0 auto; /* Added */
    float: none; /* Added */
@@ -139,60 +122,45 @@ body{
 
 .footer{
    background-color: #fff;
-   height: 70px;
+   height: 40px;
    width: 100% !important;
    margin: 0;
    font-weight: 500;
-=======
-    border: 4px solid red;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    padding: 0;
+   padding-top: 8px;
 }
 
-.nasiol{
-    width: 100%;
-    border: none;
-    box-shadow: 0px 0px 30px rgba(129, 129, 129, 0.459);
+.fundosobre{
+   background-image: none;
+   background-color: rgba(70, 70, 70, 0.507);
 }
 
-#contato{
-    width: 180px;
-    font-size: 0.9em;
+.sobre{
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-size:1.2em;
+   font-weight:500;
+   padding-bottom: 15px;
 }
 
-.dropdown-item:hover{
-    background-color: rgba(248, 166, 166, 0.377);
-    transition: 1s;
-    color: black;
+#integrantes{
+   margin-top: 20px;
+   margin-left: 120px;
+   padding-left: 10px;
+   padding-top: 10px;
+   width: 250px;
 }
 
-.mapa{
-    height: 400px;
-    width: 800px;
+#prof{
+   margin-top: 40px;
+   margin-right: 10px;
 }
 
-.rodape{
-    color:#fff;
-    font-family: 'Roboto', sans-serif;
-    font-size:1.5em;
-    font-weight:500;
-    text-decoration: none;
-}
-.rodape2{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size:1.1em;
-    font-weight:500;
-    text-decoration: none;
+.senac {
+   padding-top: 50px;
+   height: 30%;
+   width: 30%;
 }
 
-.footer{
-    background-color: #fff;
-    height: 70px;
-    width: 100% !important;
-    margin: 0;
-    font-weight: 500;
->>>>>>> f438cac21010b96297eff6df1a5b95ba87e74d9f
+#ftsobre{
+   margin-top: 40px;
 }
