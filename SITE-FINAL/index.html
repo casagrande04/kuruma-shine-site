@@ -7,15 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <title>CarSão</title>
+  <title>KURUMA SHINE</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/x-icon" href="img/KURUMA.png">
 </head>
 
 <body>
   <!-- BARRA DE NAVEGAÇÃO -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff; padding-left: 20px;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff; padding-left: 20px; font-weight: 500;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img src="img/KURUMA.png" alt=""> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,20 +29,20 @@
             <a class="nav-link active " aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Serviços
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Polimento Técnico</a></li>
-              <li><a class="dropdown-item" href="#">Limpeza Interna</a></li>
-              <li><a class="dropdown-item" href="#">Revitaliazação de Pintura</a></li>
+              <li><a class="dropdown-item" href="#polimento">Polimento Técnico</a></li>
+              <li><a class="dropdown-item" href="#limpeza">Limpeza Interna</a></li>
+              <li><a class="dropdown-item" href="#pelicula">Aplicação de Película</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link active " aria-current="page" href="#produtos">Produtos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Contatos
             </a>
               <ul class="dropdown-menu" id="contato">
@@ -59,7 +60,7 @@
   <div class="container-fluid"> <!-- Inicio do container principal -->
     <div class="container-fluid text-center">
       <div class="row">
-        <div class="col">
+        <div class="col"> <br>
           <h1 class="titulo">KURUMA SHINE</h1> <br>
           <p class="subtexto">Você ama o seu carro, e nós também! Na nossa estética automotiva, não apenas cuidamos da
             parte externa do seu veículo, mas revelamos a sua verdadeira beleza interior. Imagine o seu carro brilhando,
@@ -75,12 +76,12 @@
           <div class="largura-carousel">
             <div id="carouselExampleCaptions" class="carousel slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                <button type="button" id="polimento"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                   aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
+                  aria-label="Slide 2" id="limpeza" ></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
+                  aria-label="Slide 3" id="pelicula"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -122,9 +123,8 @@
 
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#servicos"> <br>
+          <br>
             <h1 class="titulo">Serviços</h1> <br>
-          </a>
         </li>
         <div class="card border-danger mb-3" style="max-width: 18rem;">
           <div class="card-header">Polimento Técnico</div>
@@ -232,7 +232,7 @@
         </div>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#produtos"> <br> <br> <br> <br> <br>
+          <a class="nav-link active" aria-current="page" href="#produtos" id="produtos"> <br> <br> <br> <br> <br>
             <h1 class="titulo">Produtos e Marcas</h1>
           </a>
         </li>
@@ -321,7 +321,7 @@
 
         <br> <br>
             <h1 class="titulo">Onde nos encontrar</h1>
-            <p class="subtexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nulla? Doloremque, alias. Odit error autem, tempore deserunt, maiores nulla dolorum iusto praesentium alias beatae minima totam blanditiis doloremque ad suscipit! </p> 
+            <p class="subtexto">Venha nos fazer uma visita! Aqui teremos o melhor cuidado com o seu veículo e o melhor atendimento possível para você!</p> 
           </a>
         </li> <br>
 
@@ -331,8 +331,8 @@
               <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7658347885413!2d-46.57973140321043!3d-23.540923200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec26cfdcfed%3A0x49e7eb66fd4f1f2!2sSenac%20Tatuap%C3%A9%20-%20Cel.%20Lu%C3%ADs%20Americano!5e0!3m2!1spt-BR!2sbr!4v1697736802059!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col">
-              <a href="asadsda" class="rodape"><img src="img/whatsappG.png" alt=""> (11) 1234-1234</a> <br> <br>
-              <a href="asadsda" class="rodape2"><img src="img/instaG.png" alt="">@EsteticaAutomotiva</a>
+              <a href="https://web.whatsapp.com" target="_blank" class="rodape"><img src="img/whatsappG.png" alt=""> (11) 1234-1234</a> <br> <br>
+              <a href="https://www.instagram.com" target="_blank" class="rodape2"><img src="img/instaG.png" alt="">@EsteticaAutomotiva</a>
               <a href="https://www.sp.senac.br/" target="_blank"><img class="rodape3" src="img/senac.png" alt=""></a>
             </div>
           </div>
