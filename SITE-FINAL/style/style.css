@@ -3,23 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@100;300;400;500&display=swap');
 
 *{
-   margin:0;
-   padding:0;
-   border:0;
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
 }
-
-
- *{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
 
 body{
-   background-color: rgb(209, 209, 209);
-   background-image: url(/SITE-FINAL/img/fundobody.png);
+   background-color:rgb(255, 142, 142);
+/*    background-image: url(/SITE-FINAL/img/fundobody.png);
+   background-repeat: no-repeat; */
+   overflow-x: hidden;
+}
+
+.parte1{
+   background-image: url(/SITE-FINAL/img/ferrari.png);
    background-repeat: no-repeat;
+   width: 100%;
+}
+
+.parte2{
+   background-color: black;
+}
+
+.parte3{
+   background-image: url(/SITE-FINAL/img/oficina2.png);
+   background-repeat: no-repeat;
+}
+
+.parte4{
+   background-image: url(/SITE-FINAL/img/japao.png) ;
+   background-repeat: no-repeat;
+   overflow-x: hidden !important;
+   margin: 0;
 }
 
 .titulo{
@@ -127,8 +142,7 @@ body{
 .footer{
    background-color: #fff;
    height: 40px;
-   width: 100% !important;
-
+   width: 100vw;
    font-weight: 500;
    padding-top: 8px;
 }
@@ -171,4 +185,42 @@ body{
 
 #ftsobre{
    margin-top: 40px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 0px) and (max-width:812px) {
+   body{
+      background-color: black;
+   }
+
+   .parte4{
+      background-image: url(/SITE-FINAL/img/japao3.png);
+   }
+
+   .largura-carousel{
+      width: 300px;
+   }
+
+   .pem{
+      justify-content: center;
+      margin-left: 12px;
+   }
+
+   .pem2{
+      margin-left: 1px;
+   }
+
+   .mapa{
+      height: 300px;
+      width: 355px;
+      margin-bottom: 10px;
+   }
+
+   .footer{
+      height: 60px;
+      width: 100% !important;
+      font-weight: 500;
+      padding-top: 8px;
+   }
+
 }
